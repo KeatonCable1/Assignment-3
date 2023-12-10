@@ -1,4 +1,4 @@
-test@email.com,password123,Test User
+test@email.com, password123 ,Test User
 another@user.com,123456789, Jeff,hamlet
 john.doe@mydomain.net,baconbits, John Doe
 jane.doe@myotherdomain.com,NorthCarolina,Jane Doe
