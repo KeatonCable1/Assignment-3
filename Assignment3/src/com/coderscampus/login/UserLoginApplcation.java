@@ -25,7 +25,7 @@ public class UserLoginApplcation {
 					loggIn = true;
 					break;
 				}
-			} scanner.close();
+			} 
 			if (!loggIn) {
 				System.out.println("Invalid login, please try again");
 				loginAttempts++;
