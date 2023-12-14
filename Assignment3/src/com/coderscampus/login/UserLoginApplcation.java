@@ -12,7 +12,7 @@ public class UserLoginApplcation {
 		int loginAttempts = 0;
 		boolean loggIn = false;
 		
-		while (loginAttempts < 4 && !loggIn) {
+		while (loginAttempts < 5 && !loggIn) {
 			System.out.println("Enter your email: ");
 			String email = scanner.nextLine().toLowerCase();
 			
@@ -25,7 +25,7 @@ public class UserLoginApplcation {
 					loggIn = true;
 					break;
 				}
-			}
+			} scanner.close();
 			if (!loggIn) {
 				System.out.println("Invalid login, please try again");
 				loginAttempts++;
